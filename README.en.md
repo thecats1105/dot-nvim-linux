@@ -6,7 +6,7 @@ Referenced [**craftzdog**'s dotfiles-public](https://github.com/craftzdog/dotfil
 
 🌏
 English |
-[**한국어**](https://github.com/thecats1105/dot-nvim-linux/blob/main/README.ko.md)
+[**한국어**](https://github.com/thecats1105/dot-nvim-linux/blob/main/README.md)
 
 
 ## Installation

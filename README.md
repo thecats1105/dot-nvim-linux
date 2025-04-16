@@ -5,7 +5,7 @@ Neovim(LazyVim) 설정 파일입니다.
 [**craftzdog**의 dotfiles-public](https://github.com/craftzdog/dotfiles-public)을 일부 참조했습니다.
 
 🌏
-[**English**](https://github.com/thecats1105/dot-nvim-linux/blob/main/README.md) |
+[**English**](https://github.com/thecats1105/dot-nvim-linux/blob/main/README.en.md) |
 한국어
 
 ## 설치 방법
