@@ -8,6 +8,16 @@ Neovim(LazyVim) 설정 파일입니다.
 [**English**](https://github.com/thecats1105/dot-nvim-linux/blob/main/README.en.md) |
 한국어
 
+## 요구 사항
+
+- Neovim >= **0.9.0**
+- Git >= **2.19.0**
+- [Nerd Font](https://www.nerdfonts.com/) (선택적이지만 권장됨)
+- [lazygit](https://github.com/jesseduffield/lazygit) (선택적이지만 권장됨)
+- `nvim-treesitter`를 위한 **C** 컴파일러
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [fd](https://github.com/sharkdp/fd)
+
 ## 설치 방법
 
 - [Neovim](https://neovim.io/)과 [git](https://git-scm.com/)이 설치되어 있어야 합니다.

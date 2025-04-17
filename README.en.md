@@ -8,6 +8,15 @@ Referenced [**craftzdog**'s dotfiles-public](https://github.com/craftzdog/dotfil
 English |
 [**한국어**](https://github.com/thecats1105/dot-nvim-linux/blob/main/README.md)
 
+## Requirements
+
+- Neovim >= **0.9.0**
+- Git >= **2.19.0**
+- [Nerd Font](https://www.nerdfonts.com/) (optional, but recommended)
+- [lazygit](https://github.com/jesseduffield/lazygit) (optional, but recommended)
+- a **C** compiler for `nvim-treesitter`
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [fd](https://github.com/sharkdp/fd)
 
 ## Installation
 
