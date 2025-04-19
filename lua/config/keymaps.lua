@@ -1,6 +1,7 @@
 local discipline = require("craftzdog.discipline")
 
-discipline.cowboy()
+-- Uncomment the following line to enable cowboy
+-- discipline.cowboy()
 
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
