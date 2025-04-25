@@ -53,8 +53,8 @@ return {
         auto_trigger = true,
         keymap = {
           accept = "<C-l>",
-          accept_word = "<M-l>",
-          accept_line = "<M-S-l>",
+          accept_word = "<C-o>",
+          accept_line = "<C-S-l>",
           next = "<M-]>",
           prev = "<M-[>",
           dismiss = "<C-]>",
