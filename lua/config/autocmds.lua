@@ -20,3 +20,16 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt.spell = false
   end,
 })
+
+-- Disable the copilot suggestions in some files formats
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "text", "markdown", "toml", "yaml" },
+  command = "Copilot suggestion",
+})
+
+vim.api.nvim_create_autocmd({ "BufReadPre", "BufNewFile" }, {
+  pattern = { "*.czrc" },
+  callback = function()
+    vim.bo.filetype = "json"
+  end,
+})
