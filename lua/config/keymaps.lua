@@ -1,6 +1,5 @@
 local discipline = require("craftzdog.discipline")
 
--- Uncomment the following line to enable cowboy
 -- discipline.cowboy()
 
 local keymap = vim.keymap
@@ -75,3 +74,12 @@ end)
 vim.api.nvim_create_user_command("ToggleAutoformat", function()
   require("craftzdog.lsp").toggleAutoformat()
 end, {})
+
+-- Disable comamnd history
+keymap.set("n", "q:", "<Nop>", opts)
+keymap.set("n", "q/", "<Nop>", opts)
+
+-- Open notice history
+keymap.set("n", "<leader>sn", function()
+  Snacks.notifier.show_history()
+end)
