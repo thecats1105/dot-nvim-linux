@@ -56,3 +56,17 @@ vim.filetype.add({
 vim.g.lazyvim_prettier_needs_config = true
 vim.g.lazyvim_picker = "telescope"
 vim.g.lazyvim_cmp = "blink.cmp"
+
+-- -- WSL clipboard
+-- vim.g.clipboard = {
+--   name = "wslClipboard",
+--   copy = {
+--     ["*"] = "win32yank.exe -i --crlf",
+--     ["+"] = "win32yank.exe -i --crlf",
+--   },
+--   paste = {
+--     ["*"] = "win32yank.exe -o --lf",
+--     ["+"] = "win32yank.exe -o --lf",
+--   },
+--   cache_enabled = 0,
+-- }
