@@ -78,8 +78,3 @@ end, {})
 -- Disable comamnd history
 keymap.set("n", "q:", "<Nop>", opts)
 keymap.set("n", "q/", "<Nop>", opts)
-
--- Open notice history
-keymap.set("n", "<leader>sn", function()
-  Snacks.notifier.show_history()
-end)
