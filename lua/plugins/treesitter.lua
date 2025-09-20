@@ -1,8 +1,13 @@
 return {
   { "nvim-treesitter/playground", cmd = "TSPlaygroundToggle" },
 
+  ---@module 'lazy'
+  ---@type LazySpec
   {
     "nvim-treesitter/nvim-treesitter",
+    lazy = false,
+    branch = "master",
+    build = ":TSUpdate",
     opts = {
       ensure_installed = {
         "astro",
