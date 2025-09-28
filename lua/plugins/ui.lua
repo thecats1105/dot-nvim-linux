@@ -71,11 +71,19 @@ return {
   -- buffer line
   {
     "akinsho/bufferline.nvim",
+    dependencies = { "catppuccin/nvim" },
     event = "VeryLazy",
     keys = {
       { "<Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
       { "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
     },
+    init = function()
+      -- TODO: LazyVim v15
+      local bufline = require("catppuccin.groups.integrations.bufferline")
+      function bufline.get()
+        return bufline.get_theme()
+      end
+    end,
     opts = {
       options = {
         mode = "tabs",
